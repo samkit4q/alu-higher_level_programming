@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-<class '0-square.Square'>
-{}
-    pass
+"""Define a class Square."""
 
-square = square()
-print(type(square))
-print(square)
+
+class Square:
+    """Represent a square."""
+    pass
