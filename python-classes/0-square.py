@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-class square:
+class my_square:
     pass
 my_square = square()
 print(type(square))
