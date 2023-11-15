@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-class square :
+class square:
     pass
 my_square = square()
-print (type(my_square))
-print (my_square.dict_)
+print(type(mysquare))
+print(mysquare.dict_)
