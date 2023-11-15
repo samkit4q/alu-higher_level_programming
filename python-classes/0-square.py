@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-class user:
+class square:
     pass
-user = user(square)
+my_square = square()
+print ('square')
