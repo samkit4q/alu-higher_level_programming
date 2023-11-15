@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-class square:
+"""Define a class Square."""
+
+
+class Square:
+    """Represent a square."""
     pass
-my_square = square()
-print(type(mysquare))
-print(mysquare.dict_)
