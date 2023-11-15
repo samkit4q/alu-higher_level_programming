@@ -3,4 +3,4 @@ class square:
     pass
 my_square = square()
 print(type(my_square))
-print(my_square._dict_)
+print(._dict_)
