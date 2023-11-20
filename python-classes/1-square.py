@@ -1,7 +1,14 @@
 #!/usr/bin/python3
-class square_size:
-    pass
+"""Define a class Square."""
 
-square = square_size
-print(type(my_square_size))
-print(my_square._dict_)
+
+class Square:
+    """Represent a square."""
+
+    def __init__(self, size):
+        """Initialize a new Square.
+
+        Args:
+            size (int): The size of the new square.
+        """
+        self.__size = size
