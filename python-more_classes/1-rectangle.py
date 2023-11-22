@@ -1,10 +1,4 @@
 #!/usr/bin/python3
-"""Define a class Rectangle."""
-
-
-class Rectangle:
-    """Represent a Rectangle."""
-    pass 
 """
 This is the "Rectangle"  module.
 This module provides a simple Rectangle class with attribute width and height.
