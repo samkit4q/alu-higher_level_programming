@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Class Rectangle that inherits from BaseGeometry."""
-class BaseGeometry:
+
     """BaseGeometry class."""
     def integer_validator(self, name, value):
         """Validate that the value is a positive integer."""
