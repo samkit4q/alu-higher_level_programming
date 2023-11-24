@@ -38,4 +38,3 @@ if __name__ == "__main__":
 
     # Testing __str__ method
     print(my_rectangle)
-
