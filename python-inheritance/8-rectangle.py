@@ -1,20 +1,19 @@
 #!/usr/bin/python3
-"""class Rectangle that inherits from BaseGeometry (7-base_geometry.py)."""
-BaseGeometry = __import__('7-base_geometry').BaseGeometry
+class BaseGeometry:
+    def integer_validator(self, name, value):
+        """Validate that the value is a positive integer."""
+        if type(value) is not int or value <= 0:
+            raise ValueError(f"{name} must be a positive integer")
 
-
+# 9-rectangle.py
+from 7-base_geometry import BaseGeometry
 
 class Rectangle(BaseGeometry):
-    """Represent a rectangle using BaseGeometry."""
-
     def __init__(self, width, height):
-        """Intialize a new Rectangle.
-
-        Args:
-            width (int): The width of the new Rectangle.
-            height (int): The height of the new Rectangle.
-        """
+        # Validate width and height as positive integers
         self.integer_validator("width", width)
-        self.__width = width
         self.integer_validator("height", height)
+
+        # Set private attributes
+        self.__width = width
         self.__height = height
