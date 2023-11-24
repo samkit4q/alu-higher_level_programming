@@ -21,3 +21,6 @@ class Rectangle(BaseGeometry):
         self.integer_validator("height", height)
         self.__height = height
 
+# Printing the directory of the Rectangle class
+print(dir(Rectangle))
+
