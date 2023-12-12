@@ -1,27 +1,29 @@
 #!/usr/bin/python3
-"""
-prints a square
-"""
+"""A function to sperate words in python"""
+'''
+File_name: 0-rectangle.py
+Created: 5-OCT-2023
+Author: UMUTONI Kevine (simplykevine)
+Size: Large
+Project: 0x08-python-more_classes
+Status: Not yet submitted.
+'''
 
 
 def print_square(size):
-    """prints a square using #
-    Args:
-        size (int): length of square
-    Raises:
-        TypeError: if size is not an integer, or if size is a float
-            and is less than 0
-        ValueError: if size is less than 0
-    """
+    """Print a square with the # character.
 
-    if type(size) is not int:
+    Args:
+        size (int): The height/width of the square.
+    Raises:
+        TypeError: If size is not an integer.
+        ValueError: If size is < 0
+    """
+    if not isinstance(size, int):
         raise TypeError("size must be an integer")
     if size < 0:
         raise ValueError("size must be >= 0")
-    if type(size) is float and size < 0:
-        raise TypeError("size must be an integer")
 
     for i in range(size):
-        for k in range(size):
-            print("#", end="")
-        print()
+        [print("#", end="") for j in range(size)]
+        print("")
