@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Defines a rectangular class."""
+# rectangle.py
+# loading rectangle
+"""Defines a rectangle class."""
 from models.base import Base
 
 
